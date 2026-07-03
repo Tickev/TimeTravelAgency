@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
+export const runtime = "edge";
+
 /**
  * System prompt that defines the chatbot's personality and knowledge.
  * The assistant stays in character as a time travel agent.

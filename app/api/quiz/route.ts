@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
+export const runtime = "edge";
+
 const SYSTEM_PROMPT = `Tu es l'intelligence artificielle de TimeTravel Agency chargée de recommander la destination temporelle idéale.
 Les destinations disponibles sont (tu DOIS choisir parmi ces IDs exacts) :
 - "cretace" (idéal si les réponses tendent vers A : aventure, nature, isolement)
